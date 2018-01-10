@@ -1,0 +1,63 @@
+{
+  "name": "react-webpack-simple-boilerplate",
+  "version": "0.0.1",
+  "description": "React+Webpack simple boilerplate",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack-dev-server --config ./config/webpack.development.js --progress --open --hot",
+    "build": "webpack --config ./config/webpack.development.js",
+    "build:production": "webpack --config ./config/webpack.production.js",
+    "lint": "eslint src",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kurap/react-webpack-simple-boilerplate.git"
+  },
+  "keywords": [
+    "React",
+    "Webpack",
+    "ReactRouter",
+    "Template",
+    "Boilerplate"
+  ],
+  "author": "Tetsuya Kurata",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kurap/react-webpack-simple-boilerplate/issues"
+  },
+  "homepage": "https://github.com/kurap/react-webpack-simple-boilerplate#readme",
+  "dependencies": {
+    "bootstrap": "^3.3.7",
+    "dotenv": "^4.0.0",
+    "react": "^16.2.0",
+    "react-dom": "^16.2.0",
+    "react-router-dom": "^4.2.2"
+  },
+  "devDependencies": {
+    "autoprefixer": "^7.2.4",
+    "babel-core": "^6.26.0",
+    "babel-eslint": "^8.1.2",
+    "babel-loader": "^7.1.2",
+    "babel-preset-es2015": "^6.24.1",
+    "babel-preset-react": "^6.24.1",
+    "babel-preset-stage-0": "^6.24.1",
+    "css-hot-loader": "^1.3.5",
+    "css-loader": "^0.28.8",
+    "eslint": "^4.14.0",
+    "eslint-loader": "^1.9.0",
+    "eslint-plugin-react": "^7.5.1",
+    "extract-text-webpack-plugin": "^3.0.2",
+    "html-webpack-plugin": "^2.30.1",
+    "node-sass": "^4.7.2",
+    "postcss-loader": "^2.0.10",
+    "precss": "^2.0.0",
+    "react-hot-loader": "^3.1.3",
+    "sass-lint": "^1.12.1",
+    "sass-loader": "^6.0.6",
+    "style-loader": "^0.19.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7",
+    "webpack-merge": "^4.1.1"
+  }
+}
