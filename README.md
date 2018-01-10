@@ -2,9 +2,9 @@
 
 React, ReactRouter, Webpack Simple structure
 
-## Start development React web app quickly
+## Development React web app kickstart
 
-* bundle uses webpack
+* bundle uses webpack v3
 * transpile es6 uses babel
 * linter uses eslint
 * use HMR for development (js, css)
@@ -22,13 +22,13 @@ see the package.json for details of install module
   or
   yarn install
 
-  # start webpack-dev-server HMR
+  # start webpack-dev-server with js, css Hot Module Replacement
   npm start
 
-  # bundle development app
+  # bundle app for development
   npm run build
 
-  # bundle production app
+  # bundle app for production
   npm run build:production
 ```
 
@@ -43,14 +43,13 @@ see the package.json for details of install module
 |-- /public
   |-- /dist
 |-- /src
-  |-- /components // Presentation Components
+  |-- /components // Components
     |-- /about    // Sample
       |-- index.js
       |-- style.scss
     |-- /top      // Sample
       |-- index.js
       |-- style.scss
-  |-- /containers // Container Components
   |-- /styles     // global style include bootstrap
   |-- index.html  // template
   |-- index.js    // entry point
