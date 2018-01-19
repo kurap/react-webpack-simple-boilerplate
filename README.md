@@ -41,21 +41,23 @@ see the package.json for details of install module
   |-- webpack.development.js
   |-- webpack.production.js
 |-- /public
-  |-- /dist
+  |-- /dist  // assets for production
+  |-- /dev   // assets for development
 |-- /src
   |-- /components // Components
     |-- /about    // Sample
       |-- index.js
-      |-- style.scss
+      |-- style.scss // local style
     |-- /top      // Sample
       |-- index.js
-      |-- style.scss
-  |-- /styles     // global style include bootstrap
+      |-- style.scss // local style
+    |-- index.js
+  |-- /styles     // global style
   |-- index.html  // template
   |-- index.js    // entry point
 |-- .babelrc
 |-- .editorconfig
 |-- .eslintrc
 |-- .package.json
-|-- webpack.confi.js
+|-- webpack.config.js
 ```
