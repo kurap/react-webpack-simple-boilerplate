@@ -10,7 +10,7 @@ const resolvePath = dir => {
 module.exports = merge(base, {
   output: {
     path: resolvePath("../public/dev"),
-    filename: "[name].js"
+    filename: "[name].[chunkhash:8].js"
   },
   module: {
     rules: [
